@@ -1,4 +1,4 @@
-package com.uniedu.support.processing.dto.notifications;
+package com.company.platform.notifications.models.notifications;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,3 +15,5 @@ public class Notification {
     private String message;
     private Map<String, Object> payload;
 }
+
+
